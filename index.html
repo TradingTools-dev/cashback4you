@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Auto Rebate 90% | Partner IB Markets4You Indonesia - Cashback Trading Tertinggi</title>
+    <meta name="description" content="Dapatkan cashback/rebate 90% otomatis setiap lot trading Anda di Markets4You. Partner IB resmi dengan penarikan cepat, spread ketat, dan support 24/7.">
+    <meta name="keywords" content="cashback forex, rebate 90%, IB markets4you, partner markets4you, cashback trading, auto rebate, forex indonesia">
+    <meta name="author" content="Cashbacks4You - Official IB Partner Markets4You">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cashbacks4you.com/">
+    <meta property="og:title" content="Auto Rebate 90% | Partner IB Markets4You Indonesia">
+    <meta property="og:description" content="Dapatkan cashback 90% otomatis setiap lot trading. Bergabung sekarang dengan Markets4You!">
+    <meta property="og:image" content="https://cashbacks4you.com/og-image.jpg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Config untuk Warna Markets4You -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        m4y: {
+                            green: '#00C853',
+                            dark: '#0A0E17',
+                            card: '#111827',
+                            gray: '#1F2937'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #00C853 0%, #00E676 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 200, 83, 0.1);
+        }
+        .glow-green {
+            box-shadow: 0 0 40px rgba(0, 200, 83, 0.15);
+        }
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 200, 83, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-m4y-dark text-white antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-m4y-dark/95 backdrop-blur-md border-b border-m4y-green/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold">
+                        <span class="text-white">CASHBACKS</span><span class="text-m4y-green">4YOU</span>
+                    </span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#rates" class="text-gray-300 hover:text-m4y-green transition">Payout Rates</a>
+                    <a href="#what-is" class="text-gray-300 hover:text-m4y-green transition">What is Cashback</a>
+                    <a href="#how-to" class="text-gray-300 hover:text-m4y-green transition">How to Claim</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-m4y-green transition">Reviews</a>
+                    <a href="#faq" class="text-gray-300 hover:text-m4y-green transition">FAQ</a>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                       class="px-6 py-2.5 border border-m4y-green text-m4y-green rounded-lg hover:bg-m4y-green hover:text-white transition font-semibold">
+                        Get Cashback
+                    </a>
+                    <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                       class="px-6 py-2.5 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition font-semibold glow-green">
+                        Open Account
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button onclick="toggleMobileMenu()" class="text-gray-300 hover:text-white">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-m4y-card border-b border-m4y-green/10">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#rates" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">Payout Rates</a>
+                <a href="#what-is" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">What is Cashback</a>
+                <a href="#how-to" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">How to Claim</a>
+                <a href="#testimonials" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">Reviews</a>
+                <a href="#faq" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">FAQ</a>
+                <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                   class="block px-3 py-3 mt-4 bg-m4y-green text-white text-center rounded-lg font-semibold">
+                    Open Account
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop" 
+                 alt="Background" 
+                 class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-b from-m4y-dark/80 via-m4y-dark/90 to-m4y-dark"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-m4y-green font-semibold text-sm mb-4 tracking-wider uppercase">Up To</p>
+            <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold mb-6">
+                <span class="gradient-text">90%</span>
+            </h1>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">
+                <span class="text-white">Markets4You </span>
+                <span class="text-m4y-green">Rebate & Cashback</span>
+                <span class="text-white"> on Every Trade</span>
+            </h2>
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                Credits returned automatically to your Markets4You account.<br>
+                Transparent, reliable, verifiable every step.
+            </p>
+
+            <!-- Check Status Box -->
+            <div class="max-w-xl mx-auto mb-8 glass-card rounded-2xl p-6 glow-green">
+                <p class="text-sm text-gray-400 mb-4">ALREADY CONNECTED? CHECK YOUR STATUS</p>
+                <div class="flex gap-3">
+                    <input type="text" placeholder="Markets4You account number" 
+                           class="flex-1 px-4 py-3 bg-m4y-gray border border-gray-700 rounded-lg focus:outline-none focus:border-m4y-green text-white">
+                    <button class="px-6 py-3 bg-m4y-green text-white rounded-lg font-semibold hover:bg-green-600 transition">
+                        Check
+                    </button>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                   class="px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-green-600 transition glow-green">
+                    Get Cashback
+                </a>
+                <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                   class="px-8 py-4 border-2 border-m4y-green text-m4y-green rounded-xl font-bold text-lg hover:bg-m4y-green hover:text-white transition">
+                    No Markets4You Account Yet
+                </a>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="glass-card rounded-xl p-6">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">10K+</p>
+                    <p class="text-sm text-gray-400">Global Members</p>
+                </div>
+                <div class="glass-card rounded-xl p-6">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">14K+</p>
+                    <p class="text-sm text-gray-400">Successful Payouts</p>
+                </div>
+                <div class="glass-card rounded-xl p-6">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">98%</p>
+                    <p class="text-sm text-gray-400">Satisfaction</p>
+                </div>
+                <div class="glass-card rounded-xl p-6">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">10+</p>
+                    <p class="text-sm text-gray-400">Countries Served</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cashback Rates Section -->
+    <section id="rates" class="py-20 bg-m4y-card">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Payout Rates</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Our Cashback Rates</h2>
+                <p class="text-gray-400">All account types & assets — transparent, verifiable directly through Markets4You</p>
+            </div>
+
+            <!-- Main Rate Display -->
+            <div class="glass-card rounded-3xl p-12 text-center mb-8 glow-green">
+                <p class="text-8xl font-bold gradient-text mb-4">90%</p>
+                <p class="text-xl text-gray-300 mb-2">Top assets — cashback on every trade</p>
+                <p class="text-gray-500 text-sm">From 0.01 lot • No minimum • No max • Auto-payout • Transparent & verifiable</p>
+            </div>
+
+            <!-- Rates Table -->
+            <div class="glass-card rounded-2xl overflow-hidden">
+                <div class="flex border-b border-gray-800">
+                    <button class="flex-1 px-6 py-4 bg-m4y-green text-white font-semibold">Standard Cent</button>
+                    <button class="flex-1 px-6 py-4 text-gray-400 hover:text-white transition">Standard</button>
+                    <button class="flex-1 px-6 py-4 text-gray-400 hover:text-white transition">PRO</button>
+                </div>
+                
+                <div class="overflow-x-auto">
+                    <table class="w-full">
+                        <thead class="bg-m4y-gray">
+                            <tr>
+                                <th class="px-6 py-4 text-left text-gray-400 font-semibold">Asset</th>
+                                <th class="px-6 py-4 text-left text-gray-400 font-semibold">Type</th>
+                                <th class="px-6 py-4 text-left text-gray-400 font-semibold">Cashback</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-800">
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">XAUUSDc</td>
+                                <td class="px-6 py-4 text-gray-400">Gold / USD</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">EURUSDc</td>
+                                <td class="px-6 py-4 text-gray-400">Euro / USD</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">BTCUSDc</td>
+                                <td class="px-6 py-4 text-gray-400">Bitcoin / USD</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">GBPUSDc</td>
+                                <td class="px-6 py-4 text-gray-400">Pound / USD</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">USDJPYc</td>
+                                <td class="px-6 py-4 text-gray-400">USD / Yen</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="px-6 py-4 bg-m4y-gray/30 border-t border-gray-800">
+                    <p class="text-sm text-gray-400">Min per 1 Standard Cent Lot: <span class="text-m4y-green font-bold">$14.00 / LOT</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Cashback Section -->
+    <section class="py-20 bg-m4y-dark">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Comparison</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Why Cashback?</h2>
+                <p class="text-gray-400">Real numbers — annual difference between trading with and without cashback</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- No Cashback -->
+                <div class="glass-card rounded-2xl p-8 border border-gray-800">
+                    <div class="flex items-center gap-3 mb-6">
+                        <i class="fas fa-times-circle text-red-500 text-2xl"></i>
+                        <h3 class="text-xl font-bold">No Cashback</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-6">Annual costs per trader</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Spread per lot</span>
+                            <span>$20.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Cashback per lot</span>
+                            <span class="text-red-500">$0.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Net Cost per lot</span>
+                            <span>$20.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">100 Lots / Month</span>
+                            <span class="text-red-500">-$2,000</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Annual Cost</span>
+                            <span class="text-red-500 font-bold">-$24,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 text-center">
+                        <p class="text-3xl font-bold text-gray-600">$0</p>
+                        <p class="text-sm text-gray-500">Saved per Year</p>
+                    </div>
+                </div>
+
+                <!-- With Cashback -->
+                <div class="glass-card rounded-2xl p-8 border-2 border-m4y-green glow-green relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-m4y-green text-white px-4 py-1 rounded-full text-sm font-semibold">RECOMMENDED</span>
+                    </div>
+                    
+                    <div class="flex items-center gap-3 mb-6 mt-2">
+                        <i class="fas fa-check-circle text-m4y-green text-2xl"></i>
+                        <h3 class="text-xl font-bold">With Cashbacks4You</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-6">Annual costs per trader</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Spread per lot</span>
+                            <span>$20.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Cashback per lot</span>
+                            <span class="text-m4y-green font-bold">+$14.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Net Cost per lot</span>
+                            <span class="text-m4y-green">$6.00</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">100 Lots / Month</span>
+                            <span class="text-m4y-green">-$600</span>
+                        </div>
+                        <div class="flex justify-between py-3 border-b border-gray-800">
+                            <span class="text-gray-400">Annual Cost</span>
+                            <span class="text-m4y-green font-bold">-$7,200</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 text-center">
+                        <p class="text-4xl font-bold text-m4y-green">$16,800</p>
+                        <p class="text-sm text-gray-400">Saved per Year (100 lots/month)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                   class="inline-block px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-green-600 transition glow-green">
+                    Start Cashback Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Cashback Section -->
+    <section id="what-is" class="py-20 bg-m4y-card">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Understanding</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-6">What is Cashback?</h2>
+                    <div class="space-y-4 text-gray-400">
+                        <p>Cashback (rebate) is a partial refund of your trading costs: part of the spread you pay becomes a partner commission that Markets4You pays us — and we return up to 90% of that commission to you.</p>
+                        <p><strong class="text-white">Example:</strong> you trade and pay a spread — e.g. $20 per lot. Markets4You shares part of it with us as partner commission, and up to 90% of that commission goes back into your own Markets4You account daily. Your spread never changes.</p>
+                    </div>
+                    
+                    <ul class="mt-6 space-y-3">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-m4y-green mt-1"></i>
+                            <span class="text-gray-300">From 0.01 Lot — every order earns cashback, no minimum</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-m4y-green mt-1"></i>
+                            <span class="text-gray-300">Zero impact on your trading results or account</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-m4y-green mt-1"></i>
+                            <span class="text-gray-300">Transparent system, verifiable directly via Markets4You</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check text-m4y-green mt-1"></i>
+                            <span class="text-gray-300">Supports all accounts: Standard / PRO / Standard Cent</span>
+                        </li>
+                    </ul>
+
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <div class="glass-card rounded-xl p-4">
+                            <p class="text-sm text-gray-400 mb-2">Daily cashback</p>
+                            <p class="text-2xl font-bold text-m4y-green">90%</p>
+                            <p class="text-xs text-gray-500">rebate rate</p>
+                        </div>
+                        <div class="glass-card rounded-xl p-4">
+                            <p class="text-sm text-gray-400 mb-2">Min lot</p>
+                            <p class="text-2xl font-bold text-m4y-green">0.01</p>
+                            <p class="text-xs text-gray-500">no minimum</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <!-- Flow Diagram -->
+                    <div class="space-y-4">
+                        <div class="glass-card rounded-xl p-6 border-l-4 border-m4y-green">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-m4y-green rounded-full flex items-center justify-center font-bold text-xl">01</div>
+                                <div>
+                                    <p class="text-gray-400 text-sm">You Open Lot</p>
+                                    <p class="text-xl font-bold">XAUUSD / EURUSD</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center"><i class="fas fa-arrow-down text-m4y-green text-2xl"></i></div>
+                        
+                        <div class="glass-card rounded-xl p-6 border-l-4 border-m4y-green">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-m4y-green rounded-full flex items-center justify-center font-bold text-xl">02</div>
+                                <div>
+                                    <p class="text-gray-400 text-sm">Spread paid to broker</p>
+                                    <p class="text-xl font-bold text-red-400">-$20 / LOT</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center"><i class="fas fa-arrow-down text-m4y-green text-2xl"></i></div>
+                        
+                        <div class="glass-card rounded-xl p-6 border-l-4 border-m4y-green">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-m4y-green rounded-full flex items-center justify-center font-bold text-xl">03</div>
+                                <div>
+                                    <p class="text-gray-400 text-sm">We return to you up to</p>
+                                    <p class="text-xl font-bold text-m4y-green">+$14 / LOT</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center"><i class="fas fa-arrow-down text-m4y-green text-2xl"></i></div>
+                        
+                        <div class="glass-card rounded-xl p-6 border-l-4 border-m4y-green glow-green">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-m4y-green rounded-full flex items-center justify-center font-bold text-xl">04</div>
+                                <div>
+                                    <p class="text-gray-400 text-sm">Net cost reduced</p>
+                                    <p class="text-xl font-bold">Save up to 70%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bottom -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
+                <div class="glass-card rounded-xl p-6 text-center">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">10,000+</p>
+                    <p class="text-sm text-gray-400">Global Members</p>
+                </div>
+                <div class="glass-card rounded-xl p-6 text-center">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">14,000+</p>
+                    <p class="text-sm text-gray-400">Successful Payouts</p>
+                </div>
+                <div class="glass-card rounded-xl p-6 text-center">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">98%</p>
+                    <p class="text-sm text-gray-400">Satisfaction</p>
+                </div>
+                <div class="glass-card rounded-xl p-6 text-center">
+                    <p class="text-3xl font-bold text-m4y-green mb-1">10+</p>
+                    <p class="text-sm text-gray-400">Countries Served</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Get Section -->
+    <section id="how-to" class="py-20 bg-m4y-dark">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Steps</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">How to Get Trading Cashback?</h2>
+                <p class="text-gray-400">Choose your situation — start earning cashback immediately, with or without an existing account</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Existing Account -->
+                <div class="glass-card rounded-2xl p-8 border border-m4y-green/30">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="text-5xl font-bold text-m4y-green/20">01</span>
+                        <div>
+                            <span class="bg-m4y-green/20 text-m4y-green px-3 py-1 rounded-full text-xs font-semibold">EXISTING ACCOUNT</span>
+                            <h3 class="text-2xl font-bold mt-2">Already Have Markets4You</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">No need to open a new account — just switch partner to us and earn cashback on every lot</p>
+                    
+                    <ol class="space-y-4 mb-8">
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                            <span class="text-gray-300">Click the link below to login to Markets4You</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                            <span class="text-gray-300">Go to live chat in the left menu</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                            <span class="text-gray-300">Say you want to <strong>"Change Partner"</strong></span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                            <span class="text-gray-300">Attach our partner link and wait for confirmation</span>
+                        </li>
+                    </ol>
+
+                    <div class="space-y-3 mb-6">
+                        <div>
+                            <label class="text-sm text-gray-400 mb-2 block">Partner Link</label>
+                            <div class="flex gap-2">
+                                <input type="text" value="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" 
+                                       readonly class="flex-1 px-4 py-2 bg-m4y-gray border border-gray-700 rounded-lg text-sm text-gray-400">
+                                <button onclick="copyToClipboard('partner-link')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-green-600 transition">
+                        Click here to access Markets4You →
+                    </a>
+                </div>
+
+                <!-- New Account -->
+                <div class="glass-card rounded-2xl p-8 border border-m4y-green/30">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="text-5xl font-bold text-m4y-green/20">02</span>
+                        <div>
+                            <span class="bg-m4y-green/20 text-m4y-green px-3 py-1 rounded-full text-xs font-semibold">NEW ACCOUNT</span>
+                            <h3 class="text-2xl font-bold mt-2">No Markets4You Account Yet</h3>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6">Open an account via our partner link. Get cashback from your very first trade. Free, no extra charges.</p>
+                    
+                    <ol class="space-y-4 mb-8">
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">1</span>
+                            <span class="text-gray-300">Click the link below to open a new account</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">2</span>
+                            <span class="text-gray-300">Enter partner code <strong class="text-m4y-green">p8rhxeo</strong> when registering</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">3</span>
+                            <span class="text-gray-300">Fill in your details and verify with Markets4You</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="flex-shrink-0 w-6 h-6 bg-m4y-green rounded-full flex items-center justify-center text-sm font-bold">4</span>
+                            <span class="text-gray-300">Start trading and receive cashback automatically</span>
+                        </li>
+                    </ol>
+
+                    <div class="space-y-3 mb-6">
+                        <div>
+                            <label class="text-sm text-gray-400 mb-2 block">Partner Code</label>
+                            <div class="flex gap-2">
+                                <input type="text" value="p8rhxeo" readonly id="partner-code"
+                                       class="flex-1 px-4 py-2 bg-m4y-gray border border-gray-700 rounded-lg text-sm text-gray-400">
+                                <button onclick="copyToClipboard('partner-code')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-green-600 transition">
+                        Open Free Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-m4y-card">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Real User Reviews</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Traders Worldwide Talk About Us</h2>
+                <p class="text-gray-400">Real users from many countries — experiences verifiable on every order</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Trading Gold heavily, 5% back per lot consistently! Truly reduces costs. No extra work — system does it all."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">S</div>
+                        <div>
+                            <p class="font-semibold">Sandi A.</p>
+                            <p class="text-xs text-gray-500">STANDARD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Simple to set up, seamless ongoing. The automated cashback beats every manual rebate service I've tried. No friction at all."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">J</div>
+                        <div>
+                            <p class="font-semibold">James T.</p>
+                            <p class="text-xs text-gray-500">STANDARD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"As a new trader, getting cashback from day one made a real difference. Even 0.01 lot counts! Great for learning with lower net cost."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">P</div>
+                        <div>
+                            <p class="font-semibold">Priya S.</p>
+                            <p class="text-xs text-gray-500">STANDARD CENT</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"No gimmicks, no minimum, honest cashback every month. Exactly what the forex space has been waiting for."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">C</div>
+                        <div>
+                            <p class="font-semibold">Carlos M.</p>
+                            <p class="text-xs text-gray-500">STANDARD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Trading costs cut by nearly 70%. The math checks out every single time. Best decision I made for my trading setup this year."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">Y</div>
+                        <div>
+                            <p class="font-semibold">Yusuf A.</p>
+                            <p class="text-xs text-gray-500">STANDARD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="glass-card rounded-xl p-6 hover-lift">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Using Standard Cent — 90% cashback really helps beginners. Very transparent system. No worries about money."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-m4y-green rounded-full flex items-center justify-center font-bold">Z</div>
+                        <div>
+                            <p class="font-semibold">Jorge W.</p>
+                            <p class="text-xs text-gray-500">STANDARD CENT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-m4y-dark">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">FAQ</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-400">Everything you need to know before you start</p>
+            </div>
+
+            <div class="space-y-4" id="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">How does the cashback actually work?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>When you trade through our partner link, Markets4You shares a portion of the spread with us as commission. We then return up to 90% of that commission back to your account automatically. This happens on every eligible trade, starting from 0.01 lot.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">Do my spreads or trading conditions change?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>No, your spreads and trading conditions remain exactly the same. Cashback is an additional benefit on top of your normal trading. You pay the same spread as any other trader, but you get money back automatically.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">When and how do I receive the cashback?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>Cashback is credited to your Markets4You account automatically on a daily basis. You can verify it directly in your account history. No manual claims needed — it's 100% automated.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">Is there a minimum trading volume?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>No minimum! You can start earning cashback from as low as 0.01 lot. Every single trade counts, no matter how small.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">I already have a Markets4You account — can I still join?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>Yes! Simply contact Markets4You support via live chat and request to change your partner to us. Provide our partner link, and they'll switch you over. Your existing account and funds remain intact.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="glass-card rounded-xl overflow-hidden">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
+                        <span class="font-semibold">Is this official and safe?</span>
+                        <i class="fas fa-plus text-m4y-green transition-transform"></i>
+                    </button>
+                    <div class="hidden px-6 pb-4 text-gray-400">
+                        <p>Absolutely! We are an official Introducing Broker (IB) partner of Markets4You. The cashback system is fully integrated with Markets4You's platform and is completely transparent. You can verify every cashback payment directly in your trading account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-m4y-card">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Over 10,000 Traders Are Already Receiving Cashback</h2>
+            <p class="text-xl text-gray-400 mb-8">Stop giving away your spread. Cashback is credited on every eligible trade — automatic, no conditions.</p>
+            <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
+               class="inline-block px-10 py-5 bg-m4y-green text-white rounded-xl font-bold text-xl hover:bg-green-600 transition glow-green">
+                Start Earning Cashback
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-m4y-dark border-t border-gray-800 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <span class="text-white">CASHBACKS</span><span class="text-m4y-green">4YOU</span>
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">Official partner of Markets4You broker. We return the money back to spread back to your trading account only.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-m4y-gray rounded-full flex items-center justify-center hover:bg-m4y-green transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-m4y-gray rounded-full flex items-center justify-center hover:bg-m4y-green transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-m4y-gray rounded-full flex items-center justify-center hover:bg-m4y-green transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-m4y-gray rounded-full flex items-center justify-center hover:bg-m4y-green transition">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <div>
+                    <h4 class="font-bold mb-4">Menu</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#rates" class="text-gray-400 hover:text-m4y-green transition">Payout Rates</a></li>
+                        <li><a href="#what-is" class="text-gray-400 hover:text-m4y-green transition">What is Cashback?</a></li>
+                        <li><a href="#comparison" class="text-gray-400 hover:text-m4y-green transition">Comparison</a></li>
+                        <li><a href="#how-to" class="text-gray-400 hover:text-m4y-green transition">How to Get Cashback — Steps</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-m4y-green transition">Markets4You Rebate Guide</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-m4y-green transition">Markets4You Account Types & Cashback</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-m4y-green transition">Best Markets4You Rebate — Comparison</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-m4y-green transition">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><i class="fab fa-facebook-f w-5"></i> Facebook</li>
+                        <li><i class="fab fa-youtube w-5"></i> YouTube</li>
+                        <li><i class="fab fa-instagram w-5"></i> Instagram</li>
+                        <li><i class="fab fa-telegram-plane w-5"></i> Telegram</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="border-t border-gray-800 pt-8 mb-8">
+                <div class="text-xs text-gray-500 space-y-2">
+                    <p><strong class="text-gray-400">Affiliate Disclosure:</strong> Cashbacks4You is an independent affiliate website operated under an official partnership with Markets4You. We receive commission for referring traders to Markets4You and share most of it back with you as cashback. At no extra cost to you.</p>
+                    <p><strong class="text-gray-400">Risk Warning:</strong> Trading involves significant risk and can result in the loss of your invested capital. Cashback rebate reduces trading costs but does not guarantee profit. Trading in financial markets may not be suitable for all investors.</p>
+                    <p><strong class="text-gray-400">Restricted Regions:</strong> Markets4You does not provide services to residents of certain jurisdictions, including but not limited to the United States of America, Canada, the United Kingdom, the European Union, Japan, Iran, North Korea, and other sanctioned countries. Please verify availability in your country.</p>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-gray-500">© 2024 Cashbacks4You. All rights reserved.</p>
+                <p class="text-sm text-gray-600">Powered by Markets4You Partnership</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281234567890" target="_blank" 
+       class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition z-50">
+        <i class="fab fa-whatsapp text-3xl text-white"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // FAQ Toggle
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            content.classList.toggle('hidden');
+            if (content.classList.contains('hidden')) {
+                icon.classList.remove('rotate-45');
+                icon.classList.add('fa-plus');
+                icon.classList.remove('fa-minus');
+            } else {
+                icon.classList.add('rotate-45');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            }
+        }
+
+        // Copy to Clipboard
+        function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            element.select();
+            document.execCommand('copy');
+            
+            // Show alert
+            alert('Copied to clipboard!');
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
