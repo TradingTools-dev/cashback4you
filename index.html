@@ -1,26 +1,52 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
-    <title>Auto Rebate 90% | Partner IB Markets4You Indonesia - Cashback Trading Tertinggi</title>
-    <meta name="description" content="Dapatkan cashback/rebate 90% otomatis setiap lot trading Anda di Markets4You. Partner IB resmi dengan penarikan cepat, spread ketat, dan support 24/7.">
-    <meta name="keywords" content="cashback forex, rebate 90%, IB markets4you, partner markets4you, cashback trading, auto rebate, forex indonesia">
+    <!-- ========== SEO META TAGS - MARKETS4YOU ========== -->
+    <title>Auto Rebate 90% | Partner IB Markets4You Indonesia - Cashback Forex Tertinggi</title>
+    <meta name="description" content="Dapatkan cashback forex 90% otomatis setiap lot di Markets4You. Partner IB resmi dengan rebate harian, spread ketat, withdrawal cepat. Daftar sekarang!">
+    <meta name="keywords" content="markets4you, IB markets4you, partner markets4you, cashback forex, rebate 90%, forex indonesia, broker markets4you, introducing broker, cashback trading, auto rebate markets4you, partner resmi markets4you, forex cashback indonesia, rebate forex tertinggi, markets4you cashback program">
     <meta name="author" content="Cashbacks4You - Official IB Partner Markets4You">
+    <meta name="robots" content="index, follow">
     
-    <!-- Open Graph / Social Media -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cashbacks4you.com/">
+    
+    <!-- Hreflang untuk Multi-Language -->
+    <link rel="alternate" hreflang="id" href="https://cashbacks4you.com/" />
+    <link rel="alternate" hreflang="en" href="https://cashbacks4you.com/en/" />
+    <link rel="alternate" hreflang="vi" href="https://cashbacks4you.com/vi/" />
+    <link rel="alternate" hreflang="x-default" href="https://cashbacks4you.com/" />
+    
+    <!-- ========== OPEN GRAPH / SOCIAL MEDIA ========== -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cashbacks4you.com/">
+    <meta property="og:site_name" content="Cashbacks4You - Markets4You IB Partner">
     <meta property="og:title" content="Auto Rebate 90% | Partner IB Markets4You Indonesia">
-    <meta property="og:description" content="Dapatkan cashback 90% otomatis setiap lot trading. Bergabung sekarang dengan Markets4You!">
+    <meta property="og:description" content="Dapatkan cashback 90% otomatis setiap lot trading di Markets4You. Partner IB resmi dengan program rebate terbaik!">
     <meta property="og:image" content="https://cashbacks4you.com/og-image.jpg">
-
-    <!-- Tailwind CSS -->
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Auto Rebate 90% | Partner IB Markets4You">
+    <meta name="twitter:description" content="Cashback forex 90% otomatis setiap lot. Bergabung dengan Markets4You sekarang!">
+    <meta name="twitter:image" content="https://cashbacks4you.com/og-image.jpg">
+    
+    <!-- ========== FAVICON ========== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- ========== TAILWIND CSS ========== -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Custom Config untuk Warna Markets4You -->
+    <!-- ========== CUSTOM CONFIG - MARKETS4YOU COLORS ========== -->
     <script>
         tailwind.config = {
             theme: {
@@ -28,86 +54,151 @@
                     colors: {
                         m4y: {
                             green: '#00C853',
+                            'green-dark': '#00A344',
                             dark: '#0A0E17',
                             card: '#111827',
-                            gray: '#1F2937'
+                            gray: '#1F2937',
+                            'gray-light': '#374151'
                         }
                     },
                     fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        }
                     }
                 }
             }
         }
     </script>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Icons -->
+    <!-- ========== GOOGLE FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- ========== FONT AWESOME ICONS ========== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    
+    <!-- ========== CUSTOM STYLES ========== -->
     <style>
-        body { font-family: 'Inter', sans-serif; }
+        body { 
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
         .gradient-text {
             background: linear-gradient(135deg, #00C853 0%, #00E676 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
+        
         .glass-card {
             background: rgba(17, 24, 39, 0.8);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(0, 200, 83, 0.1);
         }
+        
         .glow-green {
             box-shadow: 0 0 40px rgba(0, 200, 83, 0.15);
         }
+        
+        .glow-green-hover:hover {
+            box-shadow: 0 0 60px rgba(0, 200, 83, 0.3);
+        }
+        
         .hover-lift {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+        
         .hover-lift:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(0, 200, 83, 0.2);
         }
+        
+        html { scroll-behavior: smooth; }
+        
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0A0E17; }
+        ::-webkit-scrollbar-thumb { background: #00C853; border-radius: 5px; }
+        ::-webkit-scrollbar-thumb:hover { background: #00A344; }
     </style>
 </head>
+
 <body class="bg-m4y-dark text-white antialiased">
 
-    <!-- Navbar -->
+    <!-- ========== NAVBAR ========== -->
     <nav class="fixed w-full z-50 bg-m4y-dark/95 backdrop-blur-md border-b border-m4y-green/10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
+                
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <span class="text-2xl font-bold">
+                    <a href="/" class="text-2xl font-bold">
                         <span class="text-white">CASHBACKS</span><span class="text-m4y-green">4YOU</span>
-                    </span>
+                    </a>
                 </div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#rates" class="text-gray-300 hover:text-m4y-green transition">Payout Rates</a>
-                    <a href="#what-is" class="text-gray-300 hover:text-m4y-green transition">What is Cashback</a>
-                    <a href="#how-to" class="text-gray-300 hover:text-m4y-green transition">How to Claim</a>
-                    <a href="#testimonials" class="text-gray-300 hover:text-m4y-green transition">Reviews</a>
-                    <a href="#faq" class="text-gray-300 hover:text-m4y-green transition">FAQ</a>
+                    <a href="#rates" class="text-gray-300 hover:text-m4y-green transition font-medium">Payout Rates</a>
+                    <a href="#what-is" class="text-gray-300 hover:text-m4y-green transition font-medium">What is Cashback</a>
+                    <a href="#comparison" class="text-gray-300 hover:text-m4y-green transition font-medium">Comparison</a>
+                    <a href="#how-to" class="text-gray-300 hover:text-m4y-green transition font-medium">How to Claim</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-m4y-green transition font-medium">Reviews</a>
+                    <a href="#faq" class="text-gray-300 hover:text-m4y-green transition font-medium">FAQ</a>
                 </div>
 
-                <!-- CTA Buttons -->
+                <!-- Right Side: CTA + Language Switcher -->
                 <div class="hidden md:flex items-center space-x-4">
                     <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
                        class="px-6 py-2.5 border border-m4y-green text-m4y-green rounded-lg hover:bg-m4y-green hover:text-white transition font-semibold">
                         Get Cashback
                     </a>
+                    
                     <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                       class="px-6 py-2.5 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition font-semibold glow-green">
+                       class="px-6 py-2.5 bg-m4y-green text-white rounded-lg hover:bg-m4y-green-dark transition font-semibold glow-green">
                         Open Account
                     </a>
+                    
+                    <!-- Language Switcher -->
+                    <div class="relative" id="language-dropdown">
+                        <button onclick="toggleLanguage()" 
+                                class="flex items-center gap-2 px-4 py-2.5 border border-m4y-green/30 rounded-lg hover:bg-m4y-green/10 transition">
+                            <i class="fas fa-globe"></i>
+                            <span id="current-lang">ID</span>
+                            <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+                        
+                        <div id="lang-menu" class="hidden absolute right-0 mt-2 w-44 bg-m4y-card border border-m4y-green/20 rounded-lg shadow-xl z-50 animate-fade-in">
+                            <a href="/" class="block px-4 py-3 hover:bg-m4y-green/10 text-white border-b border-gray-800 transition">
+                                <span class="text-lg mr-2">🇮🇩</span> Indonesia
+                            </a>
+                            <a href="/en/" class="block px-4 py-3 hover:bg-m4y-green/10 text-white border-b border-gray-800 transition">
+                                <span class="text-lg mr-2">🇬🇧</span> English
+                            </a>
+                            <a href="/vi/" class="block px-4 py-3 hover:bg-m4y-green/10 text-white transition">
+                                <span class="text-lg mr-2">🇻🇳</span> Tiếng Việt
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Mobile menu button -->
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button onclick="toggleMobileMenu()" class="text-gray-300 hover:text-white">
+                    <button onclick="toggleMobileMenu()" class="text-gray-300 hover:text-white focus:outline-none">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
                 </div>
@@ -115,62 +206,79 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-m4y-card border-b border-m4y-green/10">
+        <div id="mobile-menu" class="hidden md:hidden bg-m4y-card border-b border-m4y-green/10 animate-slide-up">
             <div class="px-4 pt-2 pb-6 space-y-2">
-                <a href="#rates" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">Payout Rates</a>
-                <a href="#what-is" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">What is Cashback</a>
-                <a href="#how-to" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">How to Claim</a>
-                <a href="#testimonials" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">Reviews</a>
-                <a href="#faq" class="block px-3 py-2 text-gray-300 hover:text-m4y-green">FAQ</a>
+                <a href="#rates" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">Payout Rates</a>
+                <a href="#what-is" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">What is Cashback</a>
+                <a href="#comparison" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">Comparison</a>
+                <a href="#how-to" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">How to Claim</a>
+                <a href="#testimonials" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">Reviews</a>
+                <a href="#faq" class="block px-3 py-2 text-gray-300 hover:text-m4y-green rounded-lg hover:bg-m4y-gray transition">FAQ</a>
+                
+                <!-- Mobile Language Switcher -->
+                <div class="pt-4 border-t border-gray-800 mt-4">
+                    <p class="text-sm text-gray-400 mb-2 px-3 font-semibold">Language / Bahasa</p>
+                    <div class="space-y-1">
+                        <a href="/" class="block px-3 py-2 text-white bg-m4y-green/20 rounded-lg font-medium">
+                            <span class="mr-2">🇮🇩</span> Indonesia
+                        </a>
+                        <a href="/en/" class="block px-3 py-2 text-gray-300 hover:bg-m4y-gray rounded-lg transition">
+                            <span class="mr-2">🇬🇧</span> English
+                        </a>
+                        <a href="/vi/" class="block px-3 py-2 text-gray-300 hover:bg-m4y-gray rounded-lg transition">
+                            <span class="mr-2">🇻🇳</span> Tiếng Việt
+                        </a>
+                    </div>
+                </div>
+                
                 <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                   class="block px-3 py-3 mt-4 bg-m4y-green text-white text-center rounded-lg font-semibold">
+                   class="block px-3 py-3 mt-4 bg-m4y-green text-white text-center rounded-lg font-semibold hover:bg-m4y-green-dark transition">
                     Open Account
                 </a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- ========== HERO SECTION ========== -->
     <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 overflow-hidden">
-        <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop" 
-                 alt="Background" 
+                 alt="Markets4You Trading Background" 
                  class="w-full h-full object-cover opacity-20">
             <div class="absolute inset-0 bg-gradient-to-b from-m4y-dark/80 via-m4y-dark/90 to-m4y-dark"></div>
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-m4y-green font-semibold text-sm mb-4 tracking-wider uppercase">Up To</p>
-            <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold mb-6">
+            <p class="text-m4y-green font-semibold text-sm mb-4 tracking-wider uppercase animate-fade-in">Up To</p>
+            <h1 class="text-7xl md:text-8xl lg:text-9xl font-bold mb-6 animate-slide-up">
                 <span class="gradient-text">90%</span>
             </h1>
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 animate-slide-up">
                 <span class="text-white">Markets4You </span>
                 <span class="text-m4y-green">Rebate & Cashback</span>
                 <span class="text-white"> on Every Trade</span>
             </h2>
-            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto animate-slide-up">
                 Credits returned automatically to your Markets4You account.<br>
                 Transparent, reliable, verifiable every step.
             </p>
 
             <!-- Check Status Box -->
-            <div class="max-w-xl mx-auto mb-8 glass-card rounded-2xl p-6 glow-green">
+            <div class="max-w-xl mx-auto mb-8 glass-card rounded-2xl p-6 glow-green animate-slide-up">
                 <p class="text-sm text-gray-400 mb-4">ALREADY CONNECTED? CHECK YOUR STATUS</p>
                 <div class="flex gap-3">
                     <input type="text" placeholder="Markets4You account number" 
                            class="flex-1 px-4 py-3 bg-m4y-gray border border-gray-700 rounded-lg focus:outline-none focus:border-m4y-green text-white">
-                    <button class="px-6 py-3 bg-m4y-green text-white rounded-lg font-semibold hover:bg-green-600 transition">
+                    <button class="px-6 py-3 bg-m4y-green text-white rounded-lg font-semibold hover:bg-m4y-green-dark transition">
                         Check
                     </button>
                 </div>
             </div>
 
             <!-- CTA Buttons -->
-            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-up">
                 <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                   class="px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-green-600 transition glow-green">
+                   class="px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-m4y-green-dark transition glow-green glow-green-hover">
                     Get Cashback
                 </a>
                 <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
@@ -180,20 +288,20 @@
             </div>
 
             <!-- Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                <div class="glass-card rounded-xl p-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto animate-fade-in">
+                <div class="glass-card rounded-xl p-6 hover-lift">
                     <p class="text-3xl font-bold text-m4y-green mb-1">10K+</p>
                     <p class="text-sm text-gray-400">Global Members</p>
                 </div>
-                <div class="glass-card rounded-xl p-6">
+                <div class="glass-card rounded-xl p-6 hover-lift">
                     <p class="text-3xl font-bold text-m4y-green mb-1">14K+</p>
                     <p class="text-sm text-gray-400">Successful Payouts</p>
                 </div>
-                <div class="glass-card rounded-xl p-6">
+                <div class="glass-card rounded-xl p-6 hover-lift">
                     <p class="text-3xl font-bold text-m4y-green mb-1">98%</p>
                     <p class="text-sm text-gray-400">Satisfaction</p>
                 </div>
-                <div class="glass-card rounded-xl p-6">
+                <div class="glass-card rounded-xl p-6 hover-lift">
                     <p class="text-3xl font-bold text-m4y-green mb-1">10+</p>
                     <p class="text-sm text-gray-400">Countries Served</p>
                 </div>
@@ -201,7 +309,31 @@
         </div>
     </section>
 
-    <!-- Cashback Rates Section -->
+    <!-- ========== TRUSTED BADGES ========== -->
+    <section class="py-12 bg-m4y-card border-y border-m4y-green/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center text-center">
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fas fa-shield-alt text-m4y-green text-3xl"></i>
+                    <p class="text-sm text-gray-400">Official Partner</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fas fa-bolt text-m4y-green text-3xl"></i>
+                    <p class="text-sm text-gray-400">Auto-Connected</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fas fa-wallet text-m4y-green text-3xl"></i>
+                    <p class="text-sm text-gray-400">Direct to Account</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <i class="fas fa-search text-m4y-green text-3xl"></i>
+                    <p class="text-sm text-gray-400">Transparent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CASHBACK RATES SECTION ========== -->
     <section id="rates" class="py-20 bg-m4y-card">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -285,6 +417,16 @@
                                     </div>
                                 </td>
                             </tr>
+                            <tr class="hover:bg-m4y-gray/50 transition">
+                                <td class="px-6 py-4 font-medium">AUDUSDc</td>
+                                <td class="px-6 py-4 text-gray-400">Aussie / USD</td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="text-m4y-green font-bold">90%</span>
+                                        <div class="w-16 h-1 bg-m4y-green rounded-full"></div>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -295,8 +437,8 @@
         </div>
     </section>
 
-    <!-- Why Cashback Section -->
-    <section class="py-20 bg-m4y-dark">
+    <!-- ========== WHY CASHBACK (COMPARISON) ========== -->
+    <section id="comparison" class="py-20 bg-m4y-dark">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <span class="text-m4y-green text-sm font-semibold tracking-wider uppercase">Comparison</span>
@@ -386,14 +528,14 @@
 
             <div class="text-center mt-12">
                 <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                   class="inline-block px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-green-600 transition glow-green">
+                   class="inline-block px-8 py-4 bg-m4y-green text-white rounded-xl font-bold text-lg hover:bg-m4y-green-dark transition glow-green">
                     Start Cashback Now
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- What is Cashback Section -->
+    <!-- ========== WHAT IS CASHBACK ========== -->
     <section id="what-is" class="py-20 bg-m4y-card">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -512,7 +654,7 @@
         </div>
     </section>
 
-    <!-- How to Get Section -->
+    <!-- ========== HOW TO GET CASHBACK ========== -->
     <section id="how-to" class="py-20 bg-m4y-dark">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -557,8 +699,9 @@
                             <label class="text-sm text-gray-400 mb-2 block">Partner Link</label>
                             <div class="flex gap-2">
                                 <input type="text" value="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" 
-                                       readonly class="flex-1 px-4 py-2 bg-m4y-gray border border-gray-700 rounded-lg text-sm text-gray-400">
-                                <button onclick="copyToClipboard('partner-link')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition">
+                                       readonly id="partner-link"
+                                       class="flex-1 px-4 py-2 bg-m4y-gray border border-gray-700 rounded-lg text-sm text-gray-400">
+                                <button onclick="copyToClipboard('partner-link')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-m4y-green-dark transition">
                                     <i class="fas fa-copy"></i>
                                 </button>
                             </div>
@@ -566,7 +709,7 @@
                     </div>
 
                     <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-green-600 transition">
+                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-m4y-green-dark transition">
                         Click here to access Markets4You →
                     </a>
                 </div>
@@ -607,7 +750,7 @@
                             <div class="flex gap-2">
                                 <input type="text" value="p8rhxeo" readonly id="partner-code"
                                        class="flex-1 px-4 py-2 bg-m4y-gray border border-gray-700 rounded-lg text-sm text-gray-400">
-                                <button onclick="copyToClipboard('partner-code')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-green-600 transition">
+                                <button onclick="copyToClipboard('partner-code')" class="px-4 py-2 bg-m4y-green text-white rounded-lg hover:bg-m4y-green-dark transition">
                                     <i class="fas fa-copy"></i>
                                 </button>
                             </div>
@@ -615,7 +758,7 @@
                     </div>
 
                     <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-green-600 transition">
+                       class="block w-full py-3 bg-m4y-green text-white text-center rounded-xl font-semibold hover:bg-m4y-green-dark transition">
                         Open Free Account
                     </a>
                 </div>
@@ -623,7 +766,7 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    <!-- ========== TESTIMONIALS ========== -->
     <section id="testimonials" class="py-20 bg-m4y-card">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -750,7 +893,7 @@
         </div>
     </section>
 
-    <!-- FAQ Section -->
+    <!-- ========== FAQ ========== -->
     <section id="faq" class="py-20 bg-m4y-dark">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -760,7 +903,6 @@
             </div>
 
             <div class="space-y-4" id="faq-container">
-                <!-- FAQ Item 1 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">How does the cashback actually work?</span>
@@ -771,7 +913,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 2 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">Do my spreads or trading conditions change?</span>
@@ -782,7 +923,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 3 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">When and how do I receive the cashback?</span>
@@ -793,7 +933,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 4 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">Is there a minimum trading volume?</span>
@@ -804,7 +943,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 5 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">I already have a Markets4You account — can I still join?</span>
@@ -815,7 +953,6 @@
                     </div>
                 </div>
 
-                <!-- FAQ Item 6 -->
                 <div class="glass-card rounded-xl overflow-hidden">
                     <button class="w-full px-6 py-4 text-left flex justify-between items-center" onclick="toggleFaq(this)">
                         <span class="font-semibold">Is this official and safe?</span>
@@ -829,19 +966,19 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- ========== FINAL CTA ========== -->
     <section class="py-20 bg-m4y-card">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-5xl font-bold mb-6">Over 10,000 Traders Are Already Receiving Cashback</h2>
             <p class="text-xl text-gray-400 mb-8">Stop giving away your spread. Cashback is credited on every eligible trade — automatic, no conditions.</p>
             <a href="https://account.markets4you.online/id/user-registration/?affid=p8rhxeo" target="_blank" 
-               class="inline-block px-10 py-5 bg-m4y-green text-white rounded-xl font-bold text-xl hover:bg-green-600 transition glow-green">
+               class="inline-block px-10 py-5 bg-m4y-green text-white rounded-xl font-bold text-xl hover:bg-m4y-green-dark transition glow-green glow-green-hover">
                 Start Earning Cashback
             </a>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========== FOOTER ========== -->
     <footer class="bg-m4y-dark border-t border-gray-800 pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-12 mb-12">
@@ -910,17 +1047,23 @@
         </div>
     </footer>
 
-    <!-- Floating WhatsApp Button -->
+    <!-- ========== FLOATING WHATSAPP ========== -->
     <a href="https://wa.me/6281234567890" target="_blank" 
        class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition z-50">
         <i class="fab fa-whatsapp text-3xl text-white"></i>
     </a>
 
-    <!-- Scripts -->
+    <!-- ========== JAVASCRIPT ========== -->
     <script>
         // Mobile Menu Toggle
         function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Language Dropdown Toggle
+        function toggleLanguage() {
+            const menu = document.getElementById('lang-menu');
             menu.classList.toggle('hidden');
         }
 
@@ -946,9 +1089,20 @@
             const element = document.getElementById(elementId);
             element.select();
             document.execCommand('copy');
-            
-            // Show alert
             alert('Copied to clipboard!');
+        }
+
+        // Close dropdown when clicking outside
+        window.onclick = function(event) {
+            const dropdown = document.getElementById('language-dropdown');
+            const menu = document.getElementById('lang-menu');
+            if (dropdown && !dropdown.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu && !mobileMenu.contains(event.target) && !event.target.closest('button[onclick="toggleMobileMenu()"]')) {
+                mobileMenu.classList.add('hidden');
+            }
         }
 
         // Smooth scroll for anchor links
@@ -961,7 +1115,6 @@
                         behavior: 'smooth',
                         block: 'start'
                     });
-                    // Close mobile menu if open
                     document.getElementById('mobile-menu').classList.add('hidden');
                 }
             });
